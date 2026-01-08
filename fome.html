@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admission Form | LAL School System</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="admission.css" />
+</head>
+
+<body>
+<header>
+  <h1>AL WAHAB PUBLIC TUITION CENTER <br> NAWAB SHAH</h1>
+</header>
+
+<nav id="page">
+  <a href="index.html"><button>HOME</button></a>
+  <a href="fome.html"><button>ADMISSION FORM</button></a>
+  <a href="contact.html"><button>CONTACT</button></a>
+</nav>
+
+<section id="form-section">
+  <CEnter><h1>ADMISSION FORM</h1></CEnter>
+
+  <div class="form-box institute-form">
+    <form id="admissionForm">
+      <div class="form-header">
+        <img src="PICS/ff.jpg.jpg" alt="School Logo" />
+        <CEnter><h2> AL WAHAB PUBLIC TUITION CENTER</h2>
+        <h5>ANOTHER WAY TO EDUCATION</h5></CEnter>
+
+      </div>
+
+      <div class="input-group">
+        <label>Student Name</label>
+        <input type="text" required />
+      </div>
+
+      <div class="input-group">
+        <label>Father Name</label>
+        <input type="text" required />
+      </div>
+
+      <div class="input-group">
+        <label>Mother Name</label>
+        <input type="text" required />
+      </div>
+
+      <div class="flex-row">
+        <div class="input-group">
+          <label>Date of Birth</label>
+          <input type="date" required />
+        </div>
+        <div class="input-group">
+          <label>Gender</label>
+          <label><input type="radio" name="gender" required /> Male</label>
+          <label><input type="radio" name="gender" /> Female</label>
+        </div>
+      </div>
+
+      <center><h3>Present Address</h3></center>
+      <div class="input-group">
+        <input type="text" placeholder="Address" />
+      </div>
+
+      <center><h3>Permanent Address</h3></center>
+      <div class="input-group">
+        <input type="text" placeholder="Address" />
+      </div>
+
+      <div class="input-group">
+        <label>Phone Number</label>
+        <input type="number" />
+      </div>
+
+      <div class="input-group">
+        <label>Email</label>
+        <input type="email" />
+      </div>
+
+      <div class="input-group">
+        <label>Class Name</label>
+        <input type="text" />
+      </div>
+
+      <center>
+        <button type="submit" id="submitBtn" class="submit-btn">Submit</button>
+      </center>
+
+      <div class="declaration">
+      <center><h4>Declaration</h4>
+        <p>
+          I hereby declare that I will obey all the rules and regulations of
+          the institution and will be fully responsible for violating any rule.
+        </p></center>
+
+      </div>
+    </form>
+  </div>
+</section>
+
+<footer>
+  © RAZA CHOHAN <br> RAZACHOHAN457@gmail.com
+</footer>
+
+<script src="form.js"></script>
+</body>
+</html>
